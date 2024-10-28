@@ -4,10 +4,10 @@ Welcome to **Event Spot Lite**! This project is designed to help users find and 
 
 ## Features
 
-- **Event Listings**: Browse through a variety of events, including concerts, workshops, and meetups.
-- **Search Functionality**: Easily search for events based on location and category.
+- **Event Listings**: Browse through a variety of Festivals across India.
+- **Search Functionality**: Easily search for events based on location and Event name.
 - **User-Friendly Interface**: A clean and responsive design for seamless navigation.
-- **Event Details**: View detailed information about each event, including date, time, location, and description.
+- **Event Details**: View detailed information about each event, including date, location, and description.
 
 ## Tech Stack
 
