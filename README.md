@@ -50,4 +50,12 @@ Make sure you have the following installed:
    git clone https://github.com/yourusername/event-spot-lite.git
    cd event-spot-lite
 
-2. **Install dependencies**: npm install
+2. **Install dependencies**:
+   ```
+   npm install
+
+3. **Start the server**:
+   ```
+   npm start
+
+ ### By- Anurag Kumar
