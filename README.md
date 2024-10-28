@@ -26,6 +26,7 @@ Welcome to **Event Spot Lite**! This project is designed to help users find and 
 ## Live Demo
 
 You can view the live application [here](https://anurag-kumar-event-spot-lite.vercel.app/).
+Link : https://anurag-kumar-event-spot-lite.vercel.app/
 
 ## Setup Instructions
 
