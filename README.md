@@ -1,6 +1,6 @@
 # Event Spot Lite
 
-Welcome to **Event Spot Lite**! This project is designed to help users find and explore events happening in their area. 
+Welcome to **Event Spot Lite**! This project is designed to help users find and explore upcoming Festivals in their area. 
 
 ## Features
 
@@ -19,8 +19,6 @@ Welcome to **Event Spot Lite**! This project is designed to help users find and 
 
 - **Backend**: 
   - Node.js
-  - Express.js
-  - MongoDB (or any database you are using)
 
 - **Deployment**: 
   - Vercel
@@ -39,7 +37,6 @@ Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v14 or later)
 - [npm](https://www.npmjs.com/get-npm) (comes with Node.js)
-- [MongoDB](https://www.mongodb.com/) (if using MongoDB for the backend)
 
 ### Installation
 
