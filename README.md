@@ -49,3 +49,5 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/event-spot-lite.git
    cd event-spot-lite
+
+2. **Install dependencies**: npm install
