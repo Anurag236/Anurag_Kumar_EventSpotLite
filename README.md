@@ -8,8 +8,6 @@ Welcome to **Event Spot Lite**! This project is designed to help users find and 
 - **Search Functionality**: Easily search for events based on location and category.
 - **User-Friendly Interface**: A clean and responsive design for seamless navigation.
 - **Event Details**: View detailed information about each event, including date, time, location, and description.
-- **Bookmark Events**: Save your favorite events for quick access later.
-- **Share Events**: Easily share events with friends via social media or messaging apps.
 
 ## Tech Stack
 
