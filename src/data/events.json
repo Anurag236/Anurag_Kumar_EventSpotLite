@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Holi",
+        "date": "24 March 2024",
+        "location": "Delhi",
+        "description": "Holi is a vibrant festival of colors celebrating love and unity through playful festivities and joyous gatherings.",
+        "image": "https://img.freepik.com/premium-vector/colorful-happy-holi-background-design-color-festival-india-celebration-greetings_948873-738.jpg"
+    },
+    {
+        "id": 2,
+        "name": "id al-Fitr",
+        "date": "28 March 2024",
+        "location": "Mumbai",
+        "description": "Eid al-Fitr is a festive celebration marking the end of Ramadan, characterized by communal prayers, feasting, and acts of charity.",
+        "image": "https://static.tnn.in/thumb/msid-109009598,thumbsize-27032,width-1280,height-720,resizemode-75/109009598.jpg?quality=100"
+    },
+    {
+        "id": 3,
+        "name": "Ganesh Chaturthi",
+        "date": "9 September 2024",
+        "location": "Kolkata",
+        "description": "Ganesh Chaturthi is a vibrant Hindu festival celebrating the birth of Lord Ganesha with colorful processions and elaborate idol installations.",
+         "image": "https://assets.thehansindia.com/h-upload/2023/09/11/1379753-ganesh-chaturthi.webp"
+    },
+    {
+        "id": 4,
+        "name": "Diwali",
+        "date": "1 November 2024",
+        "location": "Ayodhya",
+        "description": "Diwali is a joyous Hindu festival of lights symbolizing the victory of light over darkness, celebrated with the lighting of lamps, fireworks, and festive gatherings.",
+         "image": "https://www.vedantu.com/seo/content-images/c0b56154-caaf-4903-8c0e-150dee82878b_10..png"
+    },
+    {
+        "id": 5,
+        "name": "Dussehra",
+        "date": "12 October 2024",
+        "location": "Bangalore",
+        "description": "Dussehra celebrates the victory of good over evil, marked by the burning of Ravana's effigies.",
+        "image": "https://i.pinimg.com/736x/f2/8d/ea/f28dea1d4a6cdb07b06286e0383ba35c.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Krishna Janmashtami",
+        "date": "2024-11-09",
+        "location": "Vrindavan",
+        "description": "Janmashtami celebrates the birth of Lord Krishna with fasting and devotional festivities.",
+        "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202408/happy-krishna-janmashtami-2024-whatsapp-messages--greetings--status--and-more-261809915-1x1.jpg?VersionId=DXl7pRlrqGgceWblwg75IqDeAkrK.FMh"
+    },
+    {
+        "id": 7,
+        "name": "Raksha Bandhan",
+        "date": "18 August 2024",
+        "location": "Pune",
+        "description": "Raksha Bandhan celebrates the bond between siblings through the tying of a rakhi.",
+        "image": "https://hindi.cdn.zeenews.com/hindi/sites/default/files/2024/08/18/3150046-2.png"
+    },
+    {
+        "id": 8,
+        "name": "Durga Puja",
+        "date": "10 October 2024",
+        "location": "Jaipur",
+        "description": "Durga Puja celebrates the goddess Durga's victory over Mahishasura with rituals and artistic displays.",
+        "image": "https://sabimages.com/wp-content/uploads/2024/08/Durga-Maa-dp-photo43.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Lohri",
+        "date": "13 January 2024",
+        "location": "Amritsar",
+        "description": "Lohri is a Punjabi harvest festival celebrated with bonfires, singing, and dancing.",
+        "image": "https://entertainme.b-cdn.net/wp-content/uploads/2024/01/lohri-festival-ffc45b6e-c041-4f53-9598-90fbd600c442.png"
+    }
+]

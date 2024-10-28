@@ -1,0 +1,217 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #011113; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  overflow-x: hidden;
+}
+.navbar {
+  display: flex; /* Use flexbox for the navbar */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 1em 2em; /* Padding for the navbar */
+  background: linear-gradient(135deg, #011113, #011113); /* Darker gradient */
+  color: #fff; /* Text color */
+  box-shadow: 0px 4px 8px #0de1e480; /* Shadow for the navbar */
+  position: sticky; /* Sticky positioning */
+  top: 0; /* Position at the top */
+  z-index: 1000; /* High z-index */
+}
+
+.navbar h1 {
+  font-size: 2.5em; /* Increased font size */
+  font-weight: 700; /* Bold font */
+  margin: 0; /* Remove default margin */
+  transition: transform 0.4s ease; /* Smooth transition */
+}
+
+.navbar h1:hover {
+  transform: scale(1.1); /* Scale up on hover */
+  cursor: pointer; /* Pointer cursor on hover */
+  color: rgba(25, 215, 218, 0.5); /* Change color on hover */
+}
+
+.navbar input {
+  padding: 0.5em; /* Padding for input */
+  border-radius: 5px; /* Rounded corners */
+  border: none; /* No border */
+  outline: none; /* Remove outline */
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+  width: 210px; /* Fixed width for input */
+  height: 20px; /* Adjusted height for better appearance */
+  margin-top: 0.5em; /* Space between heading and input */
+}
+
+.navbar input:hover {
+  box-shadow: 0 5px 10px rgba(229, 123, 9, 0.5),
+    /* Downwards shadow */ 0 -5px 10px rgba(229, 123, 9, 0.5),
+    /* Upwards shadow */ 5px 0 10px rgba(229, 123, 9, 0.5),
+    /* Right shadow */ -5px 0 10px rgba(229, 123, 9, 0.5); /* Left shadow */
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 2em;
+}
+
+.event-card {
+  width: 320px;
+  padding: 1em;
+  background: #011113; /* Dark card background */
+  border-radius: 8px;
+  box-shadow: 2px 4px 20px rgba(10, 216, 220, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.event-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(229, 123, 9, 0.5);
+}
+
+.event-card:hover img {
+  transform: scale(1.1); /* Slightly increase scale on hover */
+}
+
+.event-card h3 {
+  margin: 0.5em 0 0.3em;
+  font-size: 1.2em;
+  color: #90caf9; /* Lighter text color */
+  font-weight: bold;
+  text-align: center;
+}
+
+.event-card p {
+  margin: 0.2em 0;
+  color: #bbb; /* Lighter gray for paragraph text */
+  text-align: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(47, 44, 47, 0.8); /* Darker overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.5s ease forwards;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  background: linear-gradient(
+    135deg,
+    #011113,
+    #011113
+  ); /* Gradient background */
+  padding: 2em;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 25px; /* More rounded corners */
+  box-shadow: 0px 5px 20px rgba(136, 82, 6, 0.8); /* Softer shadow */
+  position: relative;
+  transform: scale(0.5);
+  animation: scaleUp 0.3s ease forwards;
+  transition: transform 0.3s ease; /* Smooth appearance */
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(0.8);
+  }
+}
+
+.modal-content button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #0dc9d3; /* Brighter close button color */
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 35px; /* Slightly larger button */
+  height: 35px; /* Slightly larger button */
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease; /* Transition for scale */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+}
+
+.modal-content button:hover {
+  background: #d33;
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.modal-content h2 {
+  color: #90caf9; /* Match modal heading color */
+  font-size: 2em; /* Larger heading */
+  margin-bottom: 0.5em;
+  font-family: "Arial", sans-serif; /* Change font family for heading */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+}
+
+.modal-content p {
+  color: #ddd; /* Lighter paragraph color for better contrast */
+  line-height: 1; /* Increased line-height for readability */
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif; /* Change font family for paragraph */
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 10px; /* Softer corners */
+  margin-bottom: 1em;
+  border: 3px solid #90caf9; /* Border around image */
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 95%;
+    padding: 1.5em; /* Adjust padding for smaller screens */
+  }
+
+  .modal-content h2 {
+    font-size: 1.6em; /* Responsive heading size */
+  }
+
+  .modal-content p {
+    font-size: 1em; /* Responsive paragraph size */
+  }
+
+  .modal-content button {
+    width: 30px; /* Smaller button on mobile */
+    height: 30px; /* Smaller button on mobile */
+    font-size: 1em; /* Adjust font size */
+  }
+}
